@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.android.support:preference-v7-23.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/preference-v7-23.0.1.aar/914280fa45453201780528605b69ee6f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/preference-v7-23.0.1.aar/914280fa45453201780528605b69ee6f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

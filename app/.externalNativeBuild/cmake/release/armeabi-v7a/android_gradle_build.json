@@ -1,0 +1,154 @@
+
+{
+	"buildFiles" : [ "/Users/huaweichang/Downloads/CompressorVideo/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/huaweichang/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"coremedia-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "coremedia",
+			"buildCommand" : "/Users/huaweichang/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a --target coremedia",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/AVData.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/AVParameters.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/IObserver.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/MetaData.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/NativeThread.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/VideoCompressComponent.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/threadsafe_queue.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/videocompress_jni.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/demux/FFmpegDemux.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/demux/IDemux.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/decode/FFmpegDecode.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/decode/IFFmpegDecode.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/audio/FFmpegAudioResample.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/audio/IAudioPlay.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/audio/IAudioResample.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/encode/AudioEncoder.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/encode/MediaEncoder.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/encode/VideoEncoder.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Applications/android-ndk-r16-beta1/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Applications/android-ndk-r16-beta1/sysroot  -Dcoremedia_EXPORTS -I../../../../src/main/cpp/ffmpeg -I../../../../src/main/cpp/openssl -I../../../../src/main/cpp/ijkj4a -I../../../../src/main/cpp/ijkplayer -I../../../../src/main/cpp/libyuv -I../../../../src/main/cpp/ijksdl -I../../../../src/main/cpp/ijksoundtouch -I../../../../src/main/cpp/ijksoundtouch/include -I../../../../src/main/cpp/ijkprof -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Applications/android-ndk-r16-beta1/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Applications/android-ndk-r16-beta1/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/cpp/media/streamer/FileStreamer.cpp",
+					"workingDirectory" : "/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/huaweichang/Downloads/CompressorVideo/app/build/intermediates/cmake/release/obj/armeabi-v7a/libcoremedia.so",
+			"toolchain" : "18204992111845570315"
+		},
+		"ffmpeg-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ffmpeg",
+			"buildType" : "release",
+			"output" : "/Users/huaweichang/Downloads/CompressorVideo/app/src/main/jniLibs/armeabi-v7a/libijkffmpeg.so",
+			"toolchain" : "18204992111845570315"
+		}
+	},
+	"toolchains" : 
+	{
+		"18204992111845570315" : 
+		{
+			"cCompilerExecutable" : "/Applications/android-ndk-r16-beta1/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Applications/android-ndk-r16-beta1/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
