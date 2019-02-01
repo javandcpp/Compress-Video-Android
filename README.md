@@ -1,2 +1,2 @@
 # CompressorVideo
-视频压缩
+Compress video for android platform
