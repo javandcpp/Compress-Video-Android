@@ -1,2 +1,2 @@
-# CompressorVideo
+# Compress Video
 
