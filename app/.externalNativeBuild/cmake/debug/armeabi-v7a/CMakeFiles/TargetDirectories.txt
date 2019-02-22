@@ -1,3 +1,0 @@
-/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-/Users/huaweichang/Downloads/CompressorVideo/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/coremedia.dir

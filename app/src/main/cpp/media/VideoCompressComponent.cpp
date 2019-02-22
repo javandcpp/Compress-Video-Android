@@ -11,7 +11,7 @@ VideoCompressComponent::VideoCompressComponent() {
 VideoCompressComponent::~VideoCompressComponent() {
     LOG_E("videoCompressComponent release");
     if(destPath){
-        delete destPath;
+         free(destPath);
     }
 }
 

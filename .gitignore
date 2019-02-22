@@ -7,3 +7,4 @@ gradlew.bat
 .gradle
 .idea
 local.properties
+.externalNativeBuild/
